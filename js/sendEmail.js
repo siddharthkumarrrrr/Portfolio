@@ -10,7 +10,7 @@ function sendEmail(event) {
         comments: document.getElementById('comments').value,
     };
 
-    fetch('http://localhost:3000/send', {
+    fetch('https://portfolio-ydbj.onrender.com/send', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
